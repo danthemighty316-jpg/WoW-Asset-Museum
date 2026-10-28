@@ -1,0 +1,35 @@
+# Distribution/documentation repository. Put application ZIPs in Releases only.
+*.zip
+*.exe
+*.dll
+*.pyc
+__pycache__/
+# Never commit original game data or derived media.
+*.ojd
+*.wow
+*.wof
+*.iob
+*.spr
+*.raw
+*.smk
+*.bin
+*.cue
+*.iso
+*.nsb
+*.cls
+*.atm
+*.pal
+*.shl
+*.shm
+*.shh
+*.int
+*.fnt
+*.wav
+*.mp3
+*.ogg
+*.mp4
+*.avi
+*.png
+*.gif
+*.jpg
+*.[0-9][0-9][0-9]

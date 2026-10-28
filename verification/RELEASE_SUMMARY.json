@@ -1,0 +1,38 @@
+{
+  "schema": "wotw.museum.public-release/1",
+  "version": "0.1.0",
+  "date": "2026-10-28",
+  "platform": "Windows x64",
+  "release_zip": "WoWMuseum-v0.1.0-Windows-x64.zip",
+  "zip_bytes": 10723152,
+  "zip_sha256": "f616c937308f7ec1d8783c1c6ad58a797e50ccce09e4f2a4cac137d1878f4e14",
+  "packaged_files": 1010,
+  "unpacked_bytes": 24541104,
+  "original_game_resources_included": 0,
+  "provenance": "Executable, decoder and rendering/browser code byte-identical to the owner-confirmed v5 Museum; public documentation/licence packaging only.",
+  "validation": {
+    "Museum_regressions": 285,
+    "protected_implementation_hashes": 15879,
+    "portable_policy_tests": {
+      "run": 38,
+      "passed": 36,
+      "skipped": 2,
+      "reason": "Windows symbolic-link privilege unavailable; separate junction confinement check passed"
+    },
+    "visible_browser_integration_checks": 19,
+    "independent_defeat_movie_RGB_frames": 982,
+    "independent_defeat_movie_PCM_bytes": 3464496,
+    "decoder_reference_corpus_films": 8,
+    "decoder_reference_frames": 23616,
+    "byte_exact_repeated_build": true,
+    "owner_report": "Owner confirmed v5 works perfectly after Windows VM testing; this is owner-reported, not a fully instrumented clean-machine matrix."
+  },
+  "limits": [
+    "Not a playable game",
+    "Original game data required",
+    "Some renderer/assembly interpretations remain conditional",
+    "CD-audio music playback unavailable",
+    "Unsigned initial release",
+    "Not a claim of authenticated original gameplay or complete1:1 fidelity"
+  ]
+}

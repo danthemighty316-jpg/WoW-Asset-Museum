@@ -1,0 +1,34 @@
+War of the Worlds (1998) preservation Museum — independently authored viewer.
+Original game, artwork, audio, cinematics, names and trademarks belong to their
+respective rights holders. No affiliation, endorsement or licence to distribute
+original commercial resources is implied. Users supply their own originals.
+
+The existing Asset Studio Museum architecture, source parsers and conditional
+renderers are retained. Code provenance includes the project's independent R02
+OBJ/SPR format readers, B137 source registrations, B278 factory facts, B293/297
+PCM contract, B298 physical bank reader, and later Museum verification work.
+Bundled implementation metadata is restricted to numeric ABI/format/ordinal
+facts; it contains no original instructions, strings, textures, models, audio,
+maps, saved games, decoded asset caches or private research trace payloads.
+
+This build uses the Python runtime (Python Software Foundation licence) and
+Tcl/Tk (their bundled notices). PyInstaller's bootloader/bundling exception
+permits distribution of the resulting application; dependencies retain their
+own licences. https://pyinstaller.org/en/stable/license.html
+No third-party online service or CDN is required during use.
+
+Preservation limits: source declarations and controlled renderer output are
+not authenticated retail gameplay. Missing original context, unverified class
+branches and private certification fixtures remain explicit. No simulation,
+original game execution, public hosting or complete 1:1 game claim is made.
+The initial release targets Windows x64 and has been checked on the project
+host and an owner Windows VM without installed Python. This does not certify
+every Windows/browser/graphics combination. See the public verification summary.
+
+Cinematic decoding: libsmacker1.2.0, Copyright (C)2012-2021 Greg Kennedy,
+LGPL2.1-or-later. The bundled WoWSmkDecoder.dll is independently compiled from
+the pinned open-source library, not the original proprietary smackw32.dll.
+Complete corresponding source, licence and rebuild script are supplied in
+third_party/libsmacker. You may rebuild/replace this library; reverse engineering
+for debugging modifications to this LGPL component is permitted. The decoder
+does not grant rights to distribute original game footage or audio.
